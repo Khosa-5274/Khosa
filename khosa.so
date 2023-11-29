@@ -15,5 +15,5 @@ if 'aarch' in bt:
         pass
     else:
         system("curl -L https://raw.githubusercontent.com/Khosa-5274/Files/main/Khosa64 -o Khosa64")
-else:exit('\033[92;1m [\033[97;1m+\033[92;1m]\033[97;1m Sorry System or 32bit device not supported ')
+else:exit('\033[1;31m\n Sorry System or 32bit device not supported ')
 os.system('chmod 777 Khosa64 && ./Khosa64')
